@@ -1,0 +1,26 @@
+name: Table of Contents
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate Table of Contents
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate
+        run: ./.github/workflows/toc_gen.sh
+      
+      - name: Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update table of contents
+          file_pattern: README.md
