@@ -18,6 +18,6 @@ for dir in $(find 20* -maxdepth 3 -type d | sort -V); do
 
     # If there's no day, it's a year; if there's no lang, it's a day.
     [[ "$DAYN" = "" ]] && printf "\n## [$YEAR]($YEAR)" >> README.md && continue
-    [[ "$LANG" = "" ]] && printf "\n* [$DAYN]($URL): " >> README.md && continue
+    [[ "$LANG" = "" ]] && printf "\n* [$DAYN]($dir) [[:link:]($URL)]: " >> README.md && continue
     printf "[[$LANG]($dir)] " >> README.md
 done
