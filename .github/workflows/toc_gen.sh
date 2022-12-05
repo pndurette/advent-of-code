@@ -13,8 +13,11 @@ for dir in $(find 20* -maxdepth 3 -type d | sort -V); do
     DAYN=${arrParts[1]}
     LANG=${arrParts[2]}
 
+    # URL of the challenge
+    URL="https://adventofcode.com/$YEAR/day/$(sed 's/^day//' <<< $DAYN)"
+
     # If there's no day, it's a year; if there's no lang, it's a day.
     [[ "$DAYN" = "" ]] && printf "\n## [$YEAR]($YEAR)" >> README.md && continue
-    [[ "$LANG" = "" ]] && printf "\n* [$DAYN]($dir): " >> README.md && continue
+    [[ "$LANG" = "" ]] && printf "\n* [$DAYN]($URL): " >> README.md && continue
     printf "[[$LANG]($dir)] " >> README.md
 done
