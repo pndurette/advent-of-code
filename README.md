@@ -8,4 +8,4 @@ My [Advent of Code](https://adventofcode.com) solutions.
 * [day2](2022/day2) [[:link:](https://adventofcode.com/2022/day/2)]: [[python](2022/day2/python)] 
 * [day3](2022/day3) [[:link:](https://adventofcode.com/2022/day/3)]: [[python](2022/day3/python)] 
 * [day4](2022/day4) [[:link:](https://adventofcode.com/2022/day/4)]: [[python](2022/day4/python)] 
-* [day5](2022/day5) [[:link:](https://adventofcode.com/2022/day/5)]: [[bash](2022/day5/bash)] [[bash](2022/day5/bash/stacks)] 
+* [day5](2022/day5) [[:link:](https://adventofcode.com/2022/day/5)]: [[bash](2022/day5/bash)] 
