@@ -1,6 +1,7 @@
 # advent-of-code
 My [Advent of Code](https://adventofcode.com) solutions.
-_Disclaimer:_ the quality and seriousness of some of these solutions can vary.
+
+_Disclaimer:_ the quality and seriousness of these solutions can vary.
 
 <!-- table of contents generated below -->
 
