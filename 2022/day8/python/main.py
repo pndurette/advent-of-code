@@ -1,7 +1,11 @@
 # https://adventofcode.com/2022/day/8
 
 
-def max_view(tree, view):
+def max_view(tree: int, view: list[int]) -> int:
+    """
+    For a given <tree> value, return the number of positions (int)
+    before hitting a tree of equal or larger value, or the edge in list <view>
+    """
     for idx, value in enumerate(view):
         if value >= tree:
             return idx + 1
