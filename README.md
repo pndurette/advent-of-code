@@ -13,4 +13,4 @@ _Disclaimer:_ the quality and seriousness of these solutions can vary.
 * [day5](2022/day5) [[:link:](https://adventofcode.com/2022/day/5)]: [[bash](2022/day5/bash)] [[python](2022/day5/python)] 
 * [day6](2022/day6) [[:link:](https://adventofcode.com/2022/day/6)]: [[python](2022/day6/python)] 
 * [day7](2022/day7) [[:link:](https://adventofcode.com/2022/day/7)]: [[python](2022/day7/python)] 
-* [day8](2022/day8) [[:link:](https://adventofcode.com/2022/day/8)]: [[terraform](2022/day8/terraform)] 
+* [day8](2022/day8) [[:link:](https://adventofcode.com/2022/day/8)]: [[python](2022/day8/python)] [[terraform](2022/day8/terraform)] 
