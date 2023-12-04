@@ -17,3 +17,4 @@ _Disclaimer:_ the quality and seriousness of these solutions can vary.
 ## [2023](2023)
 * [day1](2023/day1) [[:link:](https://adventofcode.com/2023/day/1)]: [[python](2023/day1/python)] 
 * [day2](2023/day2) [[:link:](https://adventofcode.com/2023/day/2)]: [[python](2023/day2/python)] 
+* [day3](2023/day3) [[:link:](https://adventofcode.com/2023/day/3)]: [[python](2023/day3/python)] 
